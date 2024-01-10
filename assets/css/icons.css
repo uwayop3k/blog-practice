@@ -1,0 +1,66 @@
+/* Menu */
+.menu-icon {
+    width: 25px;
+    height: 4px;
+    background-color: white;
+    margin: 3px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+/* user */
+.user-icon{
+    padding: 0px;
+    margin: 0px;
+    background-color: #fbb12f;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.user{
+    display: inline-block;
+    display: flex;
+}
+
+/* Arrows */
+.arr{
+    position: relative;
+    background: inherit;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 15px;
+    transition: 0.4s ease;
+}
+
+.arr div{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-top: 4px solid #171d1e;
+    border-left: 4px solid #171d1e;
+    transform: rotate(45deg);
+    left: 13.75px;
+    top: 17.5px;
+}
+
+
+
+
+.right{
+    transform: rotate(90deg);
+}
+
+.left{
+    transform: rotate(-90deg);
+}
+
+.down{
+    transform: rotate(180deg);
+}
+
+/* phone and email */
